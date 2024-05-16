@@ -1,0 +1,7 @@
+python summary_models.py \
+--model-name wgan_multi_channel \
+--log-path "summary_models" \
+--info WGAN_GP_Multichannel \
+--batch-size 64 \
+--num-classes 40 \
+--gpu 0 \
